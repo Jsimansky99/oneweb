@@ -1,0 +1,569 @@
+/******************************************************************
+DESARROLLADO POR JOSEPH SIMANSKY
+******************************************************************/
+
+/*****************************************************************
+Estilos GENERALES
+*****************************************************************/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: rgb(0, 0, 0);
+    flex-wrap: wrap;
+}
+
+
+/*****************************************************************
+MENU PRINCIPAL
+*****************************************************************/
+.barraprincipal{
+    background: rgb(0, 0, 0);
+    float: left;
+    
+}
+
+.logo{
+    max-height: 26px;
+    padding-left: 50px;
+}
+
+nav ul li{
+    float: left;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    margin-left: 50px;
+    font-size: 12px;
+
+}
+
+.mlink{
+    color: white ;
+}
+
+.mlink:hover{
+    color: lightgray;
+    text-decoration: none;
+}
+
+.buy{
+    margin-top: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 9px;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    border-radius: 15px;
+
+}
+
+.buy:hover{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border:2px solid white;
+}
+
+#cart{
+    padding-left: 5px;
+}
+
+
+
+
+/*****************************************************************
+SECCION PRINCIPAL - BANNER
+*****************************************************************/
+.banner{
+    background: url(../images/banner.jpg);
+    background-size: 100%;
+    height: 600px;
+    
+}
+
+.titulo{
+    font-weight: 500px;
+    margin-top: 150px;
+    margin-left: 80px;
+    padding-top: 10px;
+    font-size: 40px;
+    text-align: left;
+    color: white;
+}
+
+p{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bexplore{
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 50px;
+    background: #000000;
+    color: #ff214f;
+    border: 2px solid #ff214f;
+}
+.bexplore:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #ff214f;
+}
+
+
+/*****************************************************************
+SECCION DE BOTONES  
+*****************************************************************/
+#botons{
+    text-align: right;
+    padding-left: 1180px;
+    padding-top: 0px;
+}
+
+
+
+
+/*****************************************************************
+SECCION DEMOS
+*****************************************************************/
+#demos{
+    background: white;
+    height: 250px;
+    position: inherit;
+}
+
+#chec{
+    padding-top: 90px;
+    font-size: 20px;
+    position: inherit;
+}
+
+
+/*****************************************************************
+SECCION Portafolio
+*****************************************************************/
+#mn{
+    background: black;
+    height: 100px;
+    padding-top: 15px;
+}
+
+#sectnew{
+    background: rgb(34, 34, 34);
+    height: 2800px;
+    overflow: hidden;
+    padding: 0px;
+}
+
+#buscador{
+    border-radius: 50px;
+    margin: 20px;
+    color: white;
+}
+
+#buscador:hover{
+    text-decoration: none;
+    padding: 2px 5px;
+    margin-right: 4px;
+    background-color: rgb(54, 54, 54);
+
+}
+
+.caj{
+    padding-left: 60px;
+    margin-top: 100px;
+}
+
+.portfolio-img{
+    margin-top: 50px;
+}
+.portfolio-item-title{
+    color: rgb(116, 116, 116);
+}
+
+
+
+.containergs{
+    padding: 1em;
+    overflow: hidden;
+}
+
+.item{
+    float: left;
+    margin: 1px;
+    padding-right: 50px;
+
+}
+
+
+#portafolio{
+    color: white;
+    background: black;
+    padding-top: 500x;
+}
+
+
+
+/*****************************************************************
+SECCION HERRAMIENTAS
+*****************************************************************/
+#herramientas{
+    background: rgb(255, 255, 255);
+    height: 280px;
+    float: left;
+    width: 100%;
+   
+}
+
+#cuj{
+    height: 280px;
+    border-left: 1px solid rgb(225, 225, 225);
+    text-align: left;
+    justify-content: center;
+    position: inherit;
+
+}
+
+#penci{
+    justify-content: left;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 50px;
+    
+    
+}
+
+#time{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 50px;
+}
+
+#check{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 50px;
+}
+
+#chat{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 50px;
+}
+
+/*****************************************************************
+SECCION SLIDER - CARRUSEl  1
+*****************************************************************/
+.contenedorb{
+    background: white;
+    height: 800px;
+    padding-top: 150px;
+}
+
+.geor{
+    font-size: 25px;
+}
+
+.contenido-principal{
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.carousel__elemento {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.carousel__contenedor {
+    position: relative;
+}
+
+.carousel__previous {
+	left: -30px;
+}
+
+.carousel__next {
+	right: -30px;
+}
+
+.carousel__lista {
+    overflow: hidden;
+    padding-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.carousel__indicadores.glider-dot {
+	display: block;
+	width: 5px;
+	height: 2px;
+	background: #fff;
+	opacity: .2;
+	border-radius: 0;
+}
+
+.carousel__indicadores.glider-dot:hover {
+    opacity: .5;
+}
+
+.carousel__indicadores.glider-dot.active {
+    opacity: 1;
+}
+
+
+
+/*****************************************************************
+SECCION SLIDER - CARRUSEL 2
+*****************************************************************/
+#contenedor{
+    background: rgb(247, 247, 247);
+    height: 850px;
+    margin-top: 150px;
+
+
+}
+
+.hola{
+    padding-top: 250px;
+    padding-bottom: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+#elegan{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+
+.carrusel__elemento {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.carrusel__contenedor {
+    position: relative;
+}
+
+.carrusel__anterior {
+	left: -30px;
+}
+
+.carrusel__siguiente {
+	right: -30px;
+}
+
+.carrusel__lista {
+	overflow: hidden;
+}
+
+
+
+/*****************************************************************
+SECCION BLOG
+*****************************************************************/
+#blog{
+    background-color: black;
+    height: 1000px;
+    width: 100%;
+    padding-top: 120px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#blogstyle{
+    color: white;
+    font-size: 25px;
+}
+
+#profesional{
+    color: gray;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+#creativeblog{
+    height: 500px;
+    padding-bottom: 100px;
+}
+
+#explore{
+    color: #ffffff;
+    background: #ff214f;
+    border-color: #ff214f;
+    border-radius: 50px;
+    padding: 9px 38px;
+    font-size: 20px;
+    line-height: 25px;
+    border: 2px solid transparent; 
+}
+
+#explore:hover{
+    text-decoration: none;
+    color: #ff214f;
+    background: #000000;
+    border: 2px solid #ff214f;
+    
+}
+
+/*****************************************************************
+SECCION MAGIC BOX
+*****************************************************************/
+#magic{
+    background: url(../images/lineas.jpg);
+    color: black;
+    padding-top: 100px;
+    height: 800px
+}
+
+#what{
+    font-size: 20px;
+}
+
+.des{
+    padding-top: 10px;
+    color: rgb(85, 85, 85);
+}
+
+#containerbox{
+    text-align: center;
+    padding: 100px;
+    float: left;
+}
+
+
+#cajamagic{
+    padding-top: 20px;
+    padding-left: 10px;
+    height: 180px;
+    width: 260px; 
+    margin-bottom: 15px;
+    background: rgb(255, 255, 255);
+    box-shadow: 1px 1px 2px rgb(34, 34, 34);
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#number{
+    padding-top: 20px;
+    color: #ff214f;
+    font-size: 30px;
+}
+
+.details{
+    display: none;
+}
+
+.details:hover{
+    display: initial;
+}
+    
+
+
+/*****************************************************************
+SECCION LAYOUTS
+*****************************************************************/
+#cajalayouts{
+    padding-top: 100px;
+    height: 1000px;
+    color: rgb(158, 158, 158);
+
+}
+
+#unli{
+    font-size: 20px;
+    color: white;
+}
+
+#unlid{
+    padding-bottom: 80px;
+}
+
+#layoutbox{
+    padding-top: 110px;
+}
+
+/*****************************************************************
+SECCION DE  24 ICONOS
+*****************************************************************/
+
+#iconos{
+    background: rgb(238, 235, 235);  
+    height: 720px;
+}
+#features{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+#core{
+    font-size: 20px;
+}
+
+#cuadros{
+    padding-left: 200px;
+}
+
+
+/*****************************************************************
+SECCION PARA FINAL
+*****************************************************************/
+.purchase{
+    background: rgb(10, 10, 10);
+    padding: 150px;
+    text-align: center;
+    color: white;
+}
+
+.linkpurchase{
+    color: rgb(255, 255, 255);
+    font-size:15px;
+    background: #ff214f;
+    border-color: #ff214f;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+}
+
+.linkpurchase:hover{
+    border: 2px solid #ff214f;;
+    text-decoration: none;
+    color:#ff214f;;
+    background-color: black;
+}
+
+.text{
+    font-size: 60px;
+    margin: 0px;
+    padding-bottom: 50px;
+}
+
+.you{
+    font-size: 30px;
+    color: gray;
+}
+
+/*****************************************************************
+FOOTER
+*****************************************************************/
+.end{
+    background: #ffffff;
+    padding: 50px;
+}
+
